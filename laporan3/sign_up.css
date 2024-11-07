@@ -1,0 +1,195 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+}
+.conten{
+    margin-right: 56px;
+
+}
+.conten h1{
+    font-family: "Red Hat Display";
+    text-decoration: none ;
+    font-size: 35.33;
+    font-weight: 700px;
+}
+.login-container {
+    width: 640px;
+    height: 566px;
+    background-color: #ffffff;
+    /* height: 466px; */
+    margin-right: 75px;
+    font-family:"Poppins";
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    height: 56px;
+    width: 308px;
+}
+.input-group-password {
+    margin-bottom: 15px;
+    text-align: left;
+    height: 56px;
+    /* width: 308px; */
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+    display: block;
+}
+.input-group-password label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #79747E;
+    border-radius: 4px;
+    outline: none;
+}
+.input-group-password input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #79747E;
+    border-radius: 4px;
+    outline: none;
+}
+.options .remember-me span{
+    color: #FF8682;
+}
+.password-group {
+    position: relative;
+}
+
+.password-group .toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 29px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #aaa;
+
+}
+.password-group .toggle-passwordr {
+    position: absolute;
+    right: 5px;
+    top: 18px;
+   
+    cursor: pointer;
+    font-size: 18px;
+    color: #aaa;
+    
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.remember-me {
+    display: flex;
+    
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.forgot-password {
+    color: #FF8682;
+    
+    text-decoration: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #4a5cfb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.login-btn:hover {
+    background-color: #3b4dcf;
+}
+
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #313131;
+}
+
+.signup-link a {
+    color: #FF8682;
+    text-decoration: none;
+    margin-top: 14px;
+}
+.social-login {
+    display: flex;
+    gap: 10px;
+}
+
+.social-button {
+    width: 160px;
+    height: 56px;
+    flex: 1;
+    border: 1px solid #515DEF;
+    border-radius: 8px;
+    background-color:#ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
+}
+.garislogin{
+    position: relative;
+    text-align: center;
+    bottom: 10px;
+    background-color: #FFFFFF;
+    width: 90px;
+    font-size: 14px;
+}
+
+.social-button img {
+    width: 20px;
+    height:20px;
+}
+
